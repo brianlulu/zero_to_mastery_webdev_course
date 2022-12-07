@@ -1,0 +1,38 @@
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. This means that the top lines of code of a css file are been applied first. On the other hand, if the style of certain html tag is selected later in the css file, the effect will be applied and the previous effect will be replaced.
+
+.class
+
+#id: id naming for html tag can only be used once
+
+*: select everything
+
+element: html tag name
+
+element1, element2: The comma works as "OR", this means select element1 or element2
+
+element1 element2: This means that select all element2 inside element1  
+
+element1 > element2: select element2 that has a parent tag element1. The difference between space is that > is selected strictly by parent tag. On the other hand, the space will select all the element2 inside element1.
+
+element1 + element2: select element2 right after element1, meaning line by line and element2 is not inside element1.
+
+:hover: this means when the cursor points to the element, the css style will be applied to that element
+
+:last-child
+:first-child
+
+!important (not recommended): override other css style
+
+
+What selectors win out in the cascade depends on:
+-Specificity: a value that determine how the selector's specificity on selecting html elements
+
+-Importance: the !important selector tag (aboved mentioned)
+
+-Source Order: The css file order reference in the html file. If css2 file is mentioned later than css1 file in the same html file. The css2 file is more important.

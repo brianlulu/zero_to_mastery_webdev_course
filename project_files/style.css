@@ -1,0 +1,46 @@
+* {
+    text-align: right;
+}
+
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+h2 + p:hover{
+    color: rgba(46, 65, 114, 0.5); 
+    text-align: center;
+    border: 5px solid #072466;
+    cursor: pointer;
+}
+
+p {
+    color: pink !important;
+}
+
+p {
+    color: green;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.9);
+}
+
+#div2 {
+    background: rgba(255, 0, 255, 0.2);
+}
+
