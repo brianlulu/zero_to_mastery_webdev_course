@@ -8,7 +8,7 @@ body {
     background-size: cover;
 }
 
-h2 + p:hover{
+p{
     color: rgba(46, 65, 114, 0.5); 
     text-align: center;
     border: 5px solid #072466;
@@ -17,10 +17,25 @@ h2 + p:hover{
 
 p {
     color: pink !important;
+    text-decoration: dashed;
+    line-height: 20px;
+    font-weight: 600;
+    font-size: 87%;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* if georgia is not available, then show times new roman */
 }
 
 p {
     color: green;
+    font-family: 'Zen Dots';
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
 }
 
 li {

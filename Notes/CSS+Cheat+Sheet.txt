@@ -36,3 +36,19 @@ What selectors win out in the cascade depends on:
 -Importance: the !important selector tag (aboved mentioned)
 
 -Source Order: The css file order reference in the html file. If css2 file is mentioned later than css1 file in the same html file. The css2 file is more important.
+
+---
+
+Unit Measurement for CSS: px, em, rem, %, vw, vh:
+    Font Size:
+        - px: it specify the size of the font or image
+        - em: it is unit size that is relative with the parent element 
+            Ex. if the parent px = 10px, then 2em will set the content to 20px
+        - rem: it is the unit size that is relative with the html element (root element)
+    Margins, Padding, Spacing and Width/Heights:
+    - %: Relative to the parent element
+    - VW (viewport width): Relative to the viewport’s width
+        Ex. For a screen viewport that is 480px x 800px
+        1 VW = 1% of the viewport’s width (or 4.8px)
+        50 VW = 50% of the viewport’s width (or 240px)
+    - VH (viewport height): Relative to the viewport’s height
