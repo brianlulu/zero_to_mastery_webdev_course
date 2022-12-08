@@ -52,3 +52,9 @@ Unit Measurement for CSS: px, em, rem, %, vw, vh:
         1 VW = 1% of the viewport’s width (or 4.8px)
         50 VW = 50% of the viewport’s width (or 240px)
     - VH (viewport height): Relative to the viewport’s height
+
+---
+
+Critical Render Path: The Critical Rendering Path is the sequence/path of steps the browser goes through to convert the HTML, CSS, and JavaScript to display content on the screen. Optimizing the critical render path improves render performance. The critical rendering path includes the Document Object Model (DOM), CSS Object Model (CSSOM), render tree and layout.
+
+https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path#:~:text=The%20Critical%20Rendering%20Path%20is,render%20path%20improves%20render%20performance.
