@@ -1,0 +1,5 @@
+Bootstrap
+
+- CDN (Content Distributed Network): User can just use this network to import the CSS file from the server/network.
+
+- When importing JS file, the best practice is to imported in the end of the body tag. This is because that you want the other html tag and css file to be loaded first before the js file. In this way, the user will see the webpage first, then the js script will be loaded. If not, the js file will be loaded first, then the page will to load after.
