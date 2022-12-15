@@ -5,3 +5,8 @@
 .dropdown-toggle {
     background-color: black;
 }
+
+.col {
+    background-color: red;
+    border: 2px solid;
+}
