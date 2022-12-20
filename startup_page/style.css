@@ -14,13 +14,38 @@ html {
 }
 
 h1 {
-  text-transform: uppercase;
+  font-size: 3rem;
+  /* text-transform: uppercase; */ /* add bootstrap class text-uppercase at h1 tag*/ 
   color: white;
 }
 
-.btn-primary {
+hr {
+  margin: 20px auto;
+  color: orangered;
+  border: 3px solid orangered;
+  max-width: 65px;
+  opacity: 1;
+  border-radius: 10px;  
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
   text-transform: uppercase;
+}
+
+.btn-primary {
   background-color: orangered;
   border-color: orangered;
+  --bs-btn-hover-bg: red;
+  --bs-btn-hover-border-color: red;
+}
+
+.btn-primary:hover {
+  border-width: 10px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
 }
 
